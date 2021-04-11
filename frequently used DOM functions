@@ -1,0 +1,5 @@
+//toggle 열기 2021.04.11
+
+const toggles = document.querySelectorAll('.클래스명')
+
+toggles.forEach()
