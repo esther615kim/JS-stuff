@@ -2,4 +2,10 @@
 
 const toggles = document.querySelectorAll('.클래스명')
 
-toggles.forEach()
+toggles.forEach((toggle => {
+  toggle.addEventListener('click',() =>{
+    toggle.parentNode.classList.toggle
+      ('active'
+      })
+     })
+     
