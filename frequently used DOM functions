@@ -9,3 +9,30 @@ toggles.forEach((toggle => {
       })
      })
      
+//#31 Keyboard Events 21.04.17
+
+//variants
+//form --> <form>
+//taskInput --> <input>
+//heading--> <h5>
+
+//function 기본형
+
+function RunEvent(e){
+function goes here!!}
+
+//***Key Events!!
+
+.addEventListener('여기에 올 수 있는 키이벤트',runEvent);
+-작따 안에 쓰기
+keyup
+keydown
+keypress
+focus --> 클릭시
+blurr <--클릭하고 빠져 나올 떄
+cut --> right click and cut
+paste
+input
+chage --> when there is a <select>, the event occurs when the chosen option is changed!!
+ 
+console.log( 'EVENT TYPE:`${e.type}`); --> 이걸로 확인 change 이벤트
