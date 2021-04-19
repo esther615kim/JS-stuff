@@ -36,3 +36,14 @@ input
 chage --> when there is a <select>, the event occurs when the chosen option is changed!!
  
 console.log( 'EVENT TYPE:`${e.type}`); --> 이걸로 확인 change 이벤트
+
+
+//로컬데이터 자료 get&set 
+//1.변수지정
+
+//ky값으로 local에 자료가 있는지 확인하고 없으면  객체 만들기 --> {}안에 
+
+if(localStorage.getItem('자료key값') === null{
+localStorage.setItem('data','[ ]');
+        }
+        
