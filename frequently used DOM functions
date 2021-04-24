@@ -47,3 +47,24 @@ if(localStorage.getItem('자료key값') === null{
 localStorage.setItem('data','[ ]');
         }
         
+        
+//2021.04.24 리뷰------------------------------------------------------------!
+
+//1.자료 저장
+localStorage.setITem('Key명',"value 넣기");
+
+
+//-->이렇게만 하면 key 값에 대한 value 가 계속 달라지니까
+ []안에 넣어주고,
+ []자체를 local에 저장하는 게 좋음!//
+ 
+ //--> obj에서 로컬로 들어가려면 JSON.stringify() 에 넣고
+ // ---> 로컬에서 OBJ로 나오려면 JSON.parse() 로 나오기!
+
+//예) JSON.parse(locaslStorage('키값'))  ***키값은 괄호로 감싸준다!!
+
+//2.Delete --> 전체 다 지워짐!
+localStorage.clear();
+
+
+        
