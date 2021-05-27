@@ -1,0 +1,18 @@
+// 1.함수 exercise 
+xhr.onreadystatechange = funciton(){ 
+if(this.status ===200 && this.readyState === 4){
+ console.log(this.responseText); }
+} 
+
+
+// 2.ready status 와 status 구분하기 !
+
+
+//3..open(“어떤요청인지”,’파일명’,true(동기일 떄)
+
+
+.onload(){  실행내용
+1.status 가 200(오케이)인지 확인한다
+  } 
+This.status === 200
+this.responseText → 리스폰스하는 문자 가져오기ㅇ
